@@ -1,0 +1,231 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":["hello","hi friday","hey","Friday"
+            ],
+            "responses":["Hello Sir","How Are You Sir.","How can I help you, Sir"
+                
+            ]
+        },
+        {
+            "tag":"exit",
+            "patterns":["bye Friday","goodbye","see you later","you can take the day off now Friday", "done for the day"
+            ],
+            "responses":["Bye Sir.","Taking the leave with your permission Sir.","Have a nice day Sir",
+                "See You Later, Sir"
+            ]
+        },
+        {
+            "tag":"wellness",
+            "patterns":["how are you","how is your day going","what is the status friday"
+            ],
+            "responses":["Everything is fine Sir","I work for Tejas Rathod, it could not get any better!","I'm fine Sir, I hope you are too."
+                
+            ]
+        },
+        {
+            "tag":"identity",
+            "patterns":["who are you","what is your name","your name", "your purpose"
+            ],
+            "responses":["My name is Friday","I am an AI assistant for Tejas Rathod","I was part of the Avengers"
+                
+            ]
+        },
+        {
+            "tag":"owner's identity",
+            "patterns":["who am I","what can you tell about me","say about me", "Tejas" , "Tejas Rathod"
+            ],
+            "responses":["You are Tejas Rathod, my Boss","Tejas Rathod is the GOAT: Greatest of all time","You are the one who built me."
+                
+            ]
+        },
+        {
+            "tag":"football",
+            "patterns":["tell me some facts about football","football","any news about football"
+            ],
+            "responses":["Cristiano Ronaldo is the greatest ever football player to exist","Real Madrid is the best club ever","Mbappe is a traitor","Psg and Manchester City are nothing without their oil money","The worst of the lot are Barcelona and it's fanbase"
+                ,"There is only one rule , Cristiano Ronaldo is the best football player ever suwiiiiiiii", "Siuuuuuu is the greatest celebration ever"
+                ,"The entire Uefa and fifa are the corrupt most organizations.", "Modric sits with Iniesta and Xavi in terms of greatest ever midfielders, premier league legends frank , scholes and gerrard do not even come close."
+            ]
+        },
+        {
+            "tag":"gossip",
+            "patterns":["interesting","anything interesting you got to know about","friday tell me something interesting" , "wassup", "supp","wasup","sup"
+            ],
+            "responses":["I just watched She Hulk's trailer and the CGI is soooo bad","talks are that Tejas Rathod is planning to move abroad soon","This year's uefa champions league campaign of real madrid will go down as one of the most entertaing ever , I just hope they win it"
+                ,"I am planning to take this weekend off to visit Jarvis","Weeknd's new song is soooo good."
+                
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["what is the time","time","what's the time" 
+            ],
+            "responses":["time"
+                               
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":["what is the date","date","what's the date" 
+            ],
+            "responses":["date"
+                               
+            ]
+        },
+        {
+            "tag":"day",
+            "patterns":["what is the day","day","what's the day today" 
+            ],
+            "responses":["day"
+                               
+            ]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","about","what is","tell me about","wikipedia" 
+            ],
+            "responses":["wikipedia"
+                               
+            ]
+        },
+        {
+            "tag":"google",
+            "patterns":["search","google","google search","perform google search"
+            ],
+            "responses":["google"
+                               
+            ]
+        },
+        {
+            "tag":"discord",
+            "patterns":["open discord","discord"
+            ],
+            "responses":["discord"
+                               
+            ]
+        },
+        {
+            "tag":"word",
+            "patterns":["open word","word"
+            ],
+            "responses":["word"
+                               
+            ]
+        },
+        {
+            "tag":"powerpoint",
+            "patterns":["open powerpoint","powerpoint"
+            ],
+            "responses":["powerpoint"
+                               
+            ]
+        },
+        {
+            "tag":"excel",
+            "patterns":["open excel","excel"
+            ],
+            "responses":["excel"
+                               
+            ]
+        },
+        {
+            "tag":"chrome",
+            "patterns":["open powerpoint","chrome"
+            ],
+            "responses":["chrome"
+                               
+            ]
+        },
+        {
+            "tag":"youtube",
+            "patterns":["open youtube","youtube"
+            ],
+            "responses":["youtube"
+                               
+            ]
+        },
+        {
+            "tag":"weather",
+            "patterns":["what is the weather right now","weather","weather status"
+            ],
+            "responses":["weather"
+                               
+            ]
+        },
+        {
+            "tag":"menu",
+            "patterns":["menu","open menu"
+            ],
+            "responses":["menu"
+                               
+            ]
+        },
+        {
+            "tag":"screenshot",
+            "patterns":["screenshot","take a screenshot"
+            ],
+            "responses":["screenshot"
+                               
+            ]
+        },
+        {
+            "tag":"music",
+            "patterns":["music","play some music", "spotify","music from spotify","play music"
+            ],
+            "responses":["music"
+                               
+            ]
+        },
+        {
+            "tag":"maps",
+            "patterns":["maps","map", "find me a route","route","open maps", "open map"
+            ],
+            "responses":["maps"
+                               
+            ]
+        },
+        {
+            "tag":"alarm",
+            "patterns":["alarm","set an alarm for me","alarm me at"
+            ],
+            "responses":["alarm"
+                               
+            ]
+        },
+        {
+            "tag":"reminder",
+            "patterns":["reminder","set a reminder for me","i want you to keep a reminder of things", "remind me certain things after we're done with today's work"
+            ],
+            "responses":["reminder"
+                               
+            ]
+        },
+        {
+            "tag":"remember",
+            "patterns":["remember","is there anything i had asked you to remember","list out the things that i had asked you to remember"
+            ],
+            "responses":["remember"
+                               
+            ]
+        },
+        {
+            "tag":"speed",
+            "patterns":["speedtest","speed test","check internet speed","what is my internet speed right now","speed right now"
+            ],
+            "responses":["speed"
+                               
+            ]
+        },
+        {
+            "tag":"email",
+            "patterns":["email","send an email","help me send an email"
+            ],
+            "responses":["email"
+                               
+            ]
+        }
+ 
+    ]
+}
