@@ -306,7 +306,7 @@ def sendEmail(to, content):
     server.close()
 
 def Weather():
-    complete_api_link = 'https://api.openweathermap.org/data/2.5/weather?q=Pune&appid=0b3b598b540995e9755cdf8ab184dcaa'
+    complete_api_link = 'https://api.openweathermap.org/data/2.5/weather?q=Pune&appid=********************'
     api_link = requests.get(complete_api_link)
     api_data = api_link.json()
 
