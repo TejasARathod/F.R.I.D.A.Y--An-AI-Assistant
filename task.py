@@ -251,7 +251,7 @@ def maps():
     print("Latitude = ",Lat2, "\n")
     print("Longitude = ", Long2)
 
-    client = openrouteservice.Client(key='5b3ce3597851110001cf62485ade6831604f4dab89207834cfc0399b')
+    client = openrouteservice.Client(key='*********************************************')
 
     #set location coordinates in longitude,latitude order
     coords = ((Long1,Lat1),(Long2,Lat2))
@@ -301,7 +301,7 @@ def sendEmail(to, content):
     server = smtplib.SMTP('smtp.gmail.com', 587) # This class manages a connection to an SMTP or ESMTP server
     server.ehlo() #  Hostname to send for this command defaults to the FQDN of the local host.
     server.starttls() # Puts the connection to the SMTP server into TLS mode. If you provide the keyfile and certfile parameters, the identity of the SMTP server and client can be checked.
-    server.login('tejasrathod709@gmail.com', '@Rmafcbcfc123')
+    server.login('tejasrathod709@gmail.com', '**********')
     server.sendmail('tejasrathod709@gmail.com',to,content)
     server.close()
 
@@ -334,10 +334,10 @@ def Weather():
 scope = 'user-read-private user-read-playback-state user-modify-playback-state'
 
 
-username = '31dwnnxv5x5bspqqlq4itb4whxn4'
+username = '***************************'
 
-client_id = 'c0fbbe8353b04bb0b5b9e4bf805bec21'
-client_secret = 'e2125648febd477a8277fb7cebb857c6'
+client_id = '******************************'
+client_secret = '***************************'
 redirect_uri = 'http://google.com/'
 
 
